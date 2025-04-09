@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             String host = "smtp.gmail.com";
             String port = "587";
             String username = "isip_d.a.filimonov@mpt.ru"; // Замените на ваш email
-            String password = "3186723df"; // Замените на ваш пароль или ключ приложения
+            String password = ""; // Замените на ваш пароль или ключ приложения
 
             Properties properties = new Properties();
             properties.put("mail.smtp.auth", "true");
